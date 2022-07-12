@@ -1,0 +1,14 @@
+name: tutorial
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - jupyterlab
+  - flake8
+  - pandas
+  - pandas-stubs
+  - ipdb
+  - matplotlib
+  - pip
+  - pip:
+    - wandb
